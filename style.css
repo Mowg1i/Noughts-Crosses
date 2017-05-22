@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+* {
+  text-align: center;
+  font-family: 'PT Mono';
+  text-transform: uppercase;
+
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.content {
+  background-color: gainsboro;
+  height: 380px;
+  width: 300px;
+  margin: 40px auto;
+  border: 3px solid black;
+}
+
+.square {
+  float: left;
+  height: 40px;
+  width: 60px;
+  font-size: 60px;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+.square:hover,
+button:hover {
+  background-color: lightgreen;
+}
+
+.dialogue {
+  padding: 10px 0 0 0;
+  font-size: 20px;
+  
+}
+
+.result {
+  height: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.board {
+  width: 312px;
+  margin: 10px auto;
+  padding-left: 28px;
+  
+}
+
+button {
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background-color: white;
+  font-size: 30px;
+  border: 3px solid black;
+}
+
+.vline {
+  border-right: 3px solid black;
+}
+
+.hline {
+  border-bottom: 3px solid black;
+}
+
+.clicked:hover {
+  background-color: white !important;
+}
